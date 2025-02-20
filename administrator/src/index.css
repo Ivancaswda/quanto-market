@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    background: rgba(5, 38, 255, 0.09);
+    border-color: black;
+}
+* {
+    font-family: Roboto;
+}
+select, input, textarea{
+    border: 1px solid #c2c2cd;
+    outline-color: #8691c5;
+    color: #003cd6;
+    border-radius: 4px;
+}
+#animate {
+    animation: animato 700ms ease-in-out infinite;
+}
+@keyframes animato {
+    0% {
+        transform: translateY(10px);
+    }
+    70% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+#id {
+    background-size: cover;
+    background-image: url("https://travel-tomsk.ru/img/list-1495783418.jpg");
+    background-position: top;
+    width: 100%;
+    height: 60vh;
+}
+#inject {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 60%;
+    left: 0;
+    z-index: 20;
+
+    background-color: rgba(74, 74, 74, 0.36);
+}
