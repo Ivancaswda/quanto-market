@@ -77,7 +77,7 @@ function App() {
       <div className='flex items-center justify-center flex-col gap-10 mt-[100px] mb-20'>
 
           <h1 className='text-2xl '>Почему так?</h1>
-          <div className='  flex justify-center gap-10  '>
+          <div className='  block sm:flex justify-center gap-10  '>
               <div
                   className='border border-blue-500  flex-col items-center justify-center flex gap-4 px-4 py-6 rounded-lg duration-200 cursor-pointer transition-all hover:scale-105'
               >
